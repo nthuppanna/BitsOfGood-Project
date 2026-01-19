@@ -1,17 +1,18 @@
 /* Your Styles Here */
 body {
-    background-color: purple;
+    background-color: lavender;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
 }
 
 .profile-card {
-    background-color: #c0a0c0;
+    background-color: lightpink;
     width: 500px;
     margin: 50px auto;
     padding: 30px;
     border: 2px solid pink;
+    border-radius: 15px;
 }
 
 .profile-section {
@@ -38,7 +39,7 @@ body {
 }
 
 .major-year {
-    color: white;
+    color: #B7410E;
     font-size: 18px;
     margin: 5px 0 15px;
 }
@@ -56,7 +57,7 @@ body {
 }
 
 .where-from {
-    color: white;
+    color: #B7410E;
     font-size: 16px;
     margin: 15px 0;
 }
@@ -69,6 +70,7 @@ body {
     font-size: 16px;
     margin: 20px 0;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .more-button:hover {
@@ -78,8 +80,8 @@ body {
 .details {
     margin-top: 15px;
     padding: 15px;
-    background-color: purple;
-    color: white;
+    background-color: lavender;
+    color: #B7410E;
 }
 
 .details.hidden {
