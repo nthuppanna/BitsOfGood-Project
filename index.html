@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="profile-card">
+            <div class="profile-section">
+                <img 
+                    class="profile-pic"
+                    src="pic.JPG"
+                    alt="Profile picture"
+                    width="150"
+                    height="150"
+                >
+            </div>
+
+            <div class="info">
+                <h1 class="my-name">Niha Thuppanna</h1>
+                <p class="major-year">Computer Science • Georgia Tech</p>
+
+                <div class="about-me">
+                    <p>
+                        Hello! My name is Niha Thuppanna, a first year computer science student at Georgia Tech 
+                        who enjoys building things that are both technically interesting and socially 
+                        meaningful. I've worked on web and mobile projects while staying deeply 
+                        involved in nonprofit work centered on academic assistance, tutoring, and 
+                        mentorship, which has shaped how I think about using technology to support 
+                        communities.
+                    </p>
+                </div>
+
+                <p class="where-from"> From Apex, North Carolina</p>
+
+                <button class="more-button" onclick="showMore()">Fun Fact!</button>
+                <div id="more-details" class="details hidden">
+                    <p>Outside of academics, you'll usually find me dancing, nerding out about movies and TV shows, and spending time with my family and friends.</p>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function showMore() {
+                var details = document.getElementById("more-details");
+                var button = document.querySelector(".more-button");
+                
+                if (details.classList.contains("hidden")) {
+                    details.classList.remove("hidden");
+                    button.textContent = "Hide";
+                } else {
+                    details.classList.add("hidden");
+                    button.textContent = "Fun Fact!";
+                }
+            }
+        </script>
+    </body>
+</html>

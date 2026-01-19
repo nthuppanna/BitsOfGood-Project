@@ -1,0 +1,91 @@
+/* Your Styles Here */
+body {
+    background-color: purple;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.profile-card {
+    background-color: #c0a0c0;
+    width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 2px solid pink;
+}
+
+.profile-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.info {
+    text-align: center;
+    color: white;
+}
+
+.my-name {
+    color: white;
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.major-year {
+    color: white;
+    font-size: 18px;
+    margin: 5px 0 15px;
+}
+
+.about-me {
+    color: white;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 15px 0;
+    padding: 20px;
+}
+
+.about-me p {
+    margin: 0;
+}
+
+.where-from {
+    color: white;
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.more-button {
+    background-color: #B7410E;
+    color: white;
+    border: 2px solid #B7410E;
+    padding: 12px 24px;
+    font-size: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.more-button:hover {
+    background-color: #CD5C3D;
+}
+
+.details {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: purple;
+    color: white;
+}
+
+.details.hidden {
+    display: none;
+}
+
+.details p {
+    margin: 8px 0;
+}
